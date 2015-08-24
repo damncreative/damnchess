@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "web application for chess games",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "grunt test"
   },
