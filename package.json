@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/damncreative/damnchess/issues"
   },
-  "homepage": "https://github.com/damncreative/damnchess#readme"
+  "homepage": "https://github.com/damncreative/damnchess#readme",
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.4",
+    "supertest": "^1.0.1"
+  }
 }
