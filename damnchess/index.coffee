@@ -21,12 +21,17 @@ class DamnChess
 
 
   start: (config, callback) ->
+    self = @
     # merge the config with this config
     # start the server
     # callback if start (or error)
     @server.listen @config.port, (err) ->
       # error handling
+      console.error err if err
       # success handling
+      console.log "Server is running at port #{self.config.port}" unless err
+
+      # callback
       callback err
 
 module.exports = new DamnChess

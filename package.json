@@ -5,7 +5,9 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "grunt test"
+    "start": "node app.js",
+    "test": "grunt test",
+    "dev": "./node_modules/.bin/nodemon -q app.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,7 @@
   },
   "devDependencies": {
     "mocha": "^2.2.5",
+    "nodemon": "^1.4.1",
     "should": "^7.0.4",
     "supertest": "^1.0.1"
   }
